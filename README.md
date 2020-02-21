@@ -32,22 +32,22 @@ Download from Windows Store!!
 https://www.microsoft.com/en-us/p/x410/9nlp712zmn9q?activetab=pivot:overviewtab
 ```
 ### On the Client side:
-Step 1: Run the Xserver program
-Step 2: Open cmd (Start -> type "cmd" -> Hit Enter/Return Key
-Step 3:  
+#### Step 1: Run the Xserver program
+#### Step 2: Open cmd (Start -> type "cmd" -> Hit Enter/Return Key
+#### Step 3:  
 ```
 ipconfig
 ```
 Find the IP address of your current Wireless Device...(Say XX.XX.XX.XX)
 ### On the Raspberry Pi (Server side):
 Note: Your might require a monitor/xrdp/Teamviewer Session
-Step 1: Open a Terminal window
-Step 2: Set the Display variable to forward the Interface to the Client(Laptop/Desktop you are currently working on)
+#### Step 1: Open a Terminal window
+#### Step 2: Set the Display variable to forward the Interface to the Client(Laptop/Desktop you are currently working on)
 ```
 DISPLAY=XX.XX.XX.XX:0
 export DISPLAY
 ```
-Step 3: Clone this git repository, cd(change directory into it, and run the python file
+#### Step 3: Clone this git repository, cd(change directory into it, and run the python file
 ```
 git clone https://github.com/1412kauti/MeARM_RaspberryPI.git
 cd MeARM_RaspberryPI
