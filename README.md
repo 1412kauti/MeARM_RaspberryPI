@@ -15,7 +15,7 @@ The current version is already configured for the diagram attached
 ## Display:
 If you have an LCD display, make sure you have the drivers installed from this repository
 ```
-https://github.com/goodtft/LCD-show
+https://github.com/goodtft/LCD-show.git
 ```
 ## No Display:
 ### For Linux Client:
